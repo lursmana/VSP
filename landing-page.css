@@ -1,0 +1,171 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/2447265.jpg");
+  object-fit: cover;
+  width: 98vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 5% 95%;
+  grid-template-columns: 10% 80% 10%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+
+}
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5%, 10%));
+  padding: 0rem;
+  background-color: rgb(54, 54, 54);
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vvuYF4Hz3PsybaQaupy-DYMGtEUlPdDBMQ&usqp=CAU");
+  object-fit: cover;
+  background-repeat: repeat;
+}
+.head {
+  width: 98vw;
+  height: 100%;
+  background-color: rgb(138, 138, 138);
+grid-row: 1/2;
+  grid-template-columns: 40% 60%;
+  display: grid;    
+}
+#head-img {
+  padding-top: 0.7rem;
+  justify-self: center;
+  display: grid;
+  grid-column: 1/2;
+  width: 100%;
+}
+nav > ol {
+  display: grid;
+  grid-column: 2/3;
+  flex-direction: row;
+  width: 100%;
+}
+.li {
+  float: inline-end;
+  display: inline;
+}
+.HEB {
+  display: grid;
+  grid-column: 1/10;
+  grid-row: 1/4;
+  justify-content: center;
+  align-items: center;
+}
+#HH2 {
+  margin-left: 6rem;
+  color: goldenrod;
+}
+.email {
+  margin-left: 28%;
+  margin-bottom: 4%;
+  width: 60%;
+  padding: 1.5%;
+  border: 0px;
+  border-radius: 4px;
+  background: rgb(253, 29, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 29, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 51%,
+    rgba(253, 29, 29, 1) 100%
+  );
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  width: 20%;
+  margin-left: 50%;
+  border: 0px;
+  border-radius: 2px;
+  padding: 1%;
+  background: rgb(163, 255, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(163, 255, 163, 1) 0%,
+    rgba(150, 254, 12, 1) 51%,
+    rgba(163, 255, 163, 1) 100%
+  );
+}
+.btne {
+  cursor: pointer;
+  display: block;
+  width: 50%;
+  margin-left: 0%;
+  border: 0px;
+  border-radius: 2px;
+  padding: 1%;
+  background: rgb(163, 255, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(163, 255, 163, 1) 0%,
+    rgba(150, 254, 12, 1) 51%,
+    rgba(163, 255, 163, 1) 100%
+  );
+}
+.features {
+  display: grid;
+  grid-column: 3/9;
+  grid-row: 4/10;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+#pricing:hover {
+  color: goldenrod;
+}
+
+.icons {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 4/10;
+  color: goldenrod;
+  justify-content: end;
+  margin-top: 40%;
+}
+#FH2 {
+  color: goldenrod;
+  margin: 0;
+}
+p {
+  margin: 0;
+  color: gold;
+}
+.video {
+  display: grid;
+  grid-column: 3/9;
+  grid-row: 10/15;
+  margin-top: 5%;
+  width: 100%;
+  height: 25rem;
+}
+#pricing {
+  grid-column: 1/11;
+  grid-row: 15/18;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+
+}
+.product {
+  color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: whitesmoke solid 2px;
+  margin: 1%;
+}
+h2 {
+  margin: 5%;
+}
+#navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+}
+.nav-link {
+}
